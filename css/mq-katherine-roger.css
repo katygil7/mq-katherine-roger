@@ -6,7 +6,6 @@
     body{
         width: 100%;
         margin: auto;
-        display: flex;
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
@@ -34,8 +33,11 @@
     }
 
     ul {
-        display: block;
+         display: block;
         text-align: center;
+
+
+
 
     }
 
@@ -47,14 +49,21 @@
         width: 100%;
 
 
+
     }
 
-    ul.nav-links {
-        width: 100%;
+    .nav-links{
+        padding-left: 0px;
+    }
+    .nav-links a {
+        text-decoration: none;
     }
 
     .header-img {
-
+        width: auto;
+    }
+    .header-img img{
+        width: 100%
     }
 
 
