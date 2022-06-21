@@ -48,8 +48,9 @@
         margin-top: 10px;
         width: 100%;
 
-
-
+    }
+    nav {
+        margin-bottom: 10px;
     }
 
     .nav-links{
@@ -66,9 +67,35 @@
         width: 100%
     }
 
+    footer {
+        padding-top: 61px;
+        min-height: 50px;
+        display: inherit;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 
+    h2 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: "Roboto Light", sans-serif;
+    }
 
+    p {
+        display: inline-block;
+    }
 
+    .sub-section {
+        font-style: italic;
+        margin-top: 25px;
+    }
+
+    .sub-section h2 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
 
 
     }
@@ -78,5 +105,9 @@
 
 
 @media screen and (min-width:701px) {
+
+    .body {
+
+    }
 
 }
